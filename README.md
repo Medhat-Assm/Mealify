@@ -5,7 +5,7 @@ Mealify is a responsive and modern restaurant website landing page that provides
 
 ## 📸 Screenshots
 
-
+![Uploading screencapture-medhat-assm-github-io-Mealify-2025-04-17-21_16_49.png…]()
 
 ## 📁 Features
 
