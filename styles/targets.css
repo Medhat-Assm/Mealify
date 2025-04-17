@@ -1,0 +1,65 @@
+
+#navbar:target::before {
+    content: '';
+    background-color: white;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  
+  #navbar:target {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  #navbar:target .container .side-nav {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+  body:has(#Home:target) .home::after {
+    width: 100%;
+  }
+  body:has(#Home:target) .home a {
+    color: black !important;
+  }
+  body:has(#Chefs:target) .chefs::after {
+    width: 100%;
+  }
+  body:has(#Chefs:target) .chefs a {
+    color: black !important;
+  }
+  body:has(#Chefs:target) .home::after {
+    width: 0;
+  }
+  body:has(#Chefs:target) .home a {
+    color: #7f7f90 !important;
+  }
+  body:has(#Gallery:target) .gallery::after {
+    width: 100%;
+  }
+  body:has(#Gallery:target) .gallery a {
+    color: black !important;
+  }
+  body:has(#Gallery:target) .home::after {
+    width: 0;
+  }
+  body:has(#Gallery:target) .home a {
+    color: #7f7f90 !important;
+  }
+  body:has(#Contact:target) .contact::after {
+    width: 100%;
+  }
+  body:has(#Contact:target) .contact a {
+    color: black !important;
+  }
+  body:has(#Contact:target) .home::after {
+    width: 0;
+  }
+  body:has(#Contact:target) .home a {
+    color: #7f7f90 !important;
+  }

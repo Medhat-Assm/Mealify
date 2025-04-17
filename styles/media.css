@@ -1,0 +1,288 @@
+@media screen and (min-width: 505px) {
+  .text-container h1 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 552px) {
+  .container {
+    /* width: auto; */
+    /* min-width: 90%; */
+    max-width: 540px;
+  }
+
+  .nav .container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .text-container h1 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 710px) {
+  .text-container h1 {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .chefs-section .chefs-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .chefs-section .chefs-gallery .card {
+    width: 50%;
+    padding-inline: 10px;
+  }
+
+  .gallery-section{
+    min-height: 1000px;
+  }
+
+
+  .gallery-section .masonry {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    
+  }
+
+  .gallery-section .masonry .items1,.gallery-section .masonry .items2{
+    width: 50%;
+    overflow: hidden;
+  }
+
+  footer.section .container{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+
+  footer.section .first-container{
+    width: 49%;
+    order: -2;
+  }
+
+  footer .get-contact{
+    width: 49%;
+    order: -1;
+  }
+
+  footer .get-contact p{
+    padding-inline: 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 990px;
+  }
+
+  .nav .container {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .title h2 {
+    font-size: 50px;
+  }
+
+  .hero-section .text-container h1 {
+    width: 70%;
+  }
+  .hero-section .text-container p {
+    width: 75%;
+  }
+  .hero-section {
+    height: 100vh;
+  }
+
+  .hero-section .container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* gap: 50px; */
+  }
+  .hero-section .image-container img {
+    width: 90%;
+  }
+
+  .hero-section .text-container {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .hero-section .btn-container {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero-section .book-btn,
+  .hero-section .watch-btn {
+    font-size: 16px;
+  }
+
+  .hero-section .book-btn {
+    border-top-left-radius: 0;
+  }
+
+  .chefs-section .chefs-gallery .card {
+    width: 33.333%;
+  }
+
+
+  .gallery-section .masonry.mobile-tablet{
+    display: none
+  }
+
+  .gallery-section .masonry.desktop{
+    display: block;
+    column-count: 3;
+    /* width: 70%; */
+    overflow: hidden;
+  }
+
+  .contact-section .contact-info{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-section .contact-info .item{
+    width: 49%;
+  }
+
+  .contact-section form{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .contact-section form input.name{
+    width: 49%;
+  }
+
+  .contact-section form input.email{
+    width: 49%;
+  }
+
+  .contact-section form button{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav .container {
+    padding-inline: 0;
+  }
+
+  .container {
+    max-width: 1150px;
+  }
+
+  .hero-section .text-container p:first-child {
+    width: 70%;
+  }
+
+  .nav .active-btn {
+    order: 2;
+  }
+
+  .nav .active-btn a:nth-child(2) {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .nav .side-nav {
+    background-color: transparent;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    position: static;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 0);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 0;
+    row-gap: 0;
+    opacity: 1;
+    /* transition: all 0.3s ease-in-out; */
+  }
+
+  .nav .side-nav .links ul {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  .nav .side-nav i {
+    display: none;
+  }
+
+  .nav .side-nav .links ul li {
+    position: relative;
+  }
+
+  .nav .side-nav .links ul li::after {
+    content: '';
+    border-top: 2px solid #ce1212;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav .side-nav .links ul li.home::after {
+    width: 100%;
+  }
+
+  .nav .side-nav .links ul li.home a {
+    color: black !important;
+  }
+
+  footer.section .container{
+    gap: 20px;
+  }
+
+
+  footer.section .first-container{
+    width: 24%;
+    order: 0;
+  }
+
+  footer .subscribe{
+    width: 47%;
+    order: 1;
+  }
+
+  footer .get-contact{
+    width: 24%;
+    order: 2;
+  }
+
+  footer .quick-links{
+    width: 46%;
+    margin-inline: auto;
+    order: 3;
+  }
+
+  footer .get-contact p{
+    padding-inline: 0;
+  }
+
+  
+}

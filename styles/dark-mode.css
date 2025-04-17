@@ -1,0 +1,4 @@
+#themeToggle:checked ~ .container {
+  background-color: #222;
+  color: #fff;
+}
